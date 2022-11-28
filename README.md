@@ -1,3 +1,1 @@
-# new-page
-
-# Làm bài tập 7
+"# bai3" 
