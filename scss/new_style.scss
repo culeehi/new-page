@@ -19,6 +19,11 @@
    margin-bottom: 70px;
 }
 
+.container {
+   padding-left: 16px;
+   padding-right: 16px;
+}
+
 .main {
    display: flex;
    justify-content: center;
@@ -30,11 +35,18 @@
 .box-left {
    display: flex;
    flex-wrap: wrap;
-   margin: 0 15px 0 0;
+   // margin: 0 15px 0 0;
    justify-content: center;
+   margin-left: -15px;
+   margin-right: -15px;
 }
-.nav-left {
-   margin: 15px;
+.wrap-item {
+   padding: 15px;
+   .nav-left {
+      img {
+         width: 100%;
+      }
+   }
 }
 
 .nav-left h4 {
@@ -177,17 +189,6 @@
    cursor: pointer;
 }
 
-//gradient
-
-// .gradient {
-//    width: 24%;
-//    height: 208px;
-
-//    background: linear-gradient(-3deg, #886cff, #fff);
-//    float: right;
-//    border-radius: 50%;
-//    position: relative;
-// }
 
 // css phần footer
 
