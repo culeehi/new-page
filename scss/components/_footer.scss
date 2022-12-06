@@ -1,0 +1,134 @@
+.footer {
+   color: #ffffff;
+   background-color: #292f3a;
+   padding: 5%;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-items {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   flex-wrap: wrap;
+}
+
+.items {
+   margin: 15px;
+}
+
+.footer-logo span {
+   position: relative;
+   bottom: 20px;
+   left: 5px;
+}
+
+.items span {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 32px;
+   letter-spacing: -1px;
+   margin-bottom: 10px;
+}
+.items-li {
+   margin-top: 20px;
+}
+
+.items-li li {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 24px;
+   margin: 15px 0 0 0;
+   letter-spacing: -0.3px;
+   text-transform: uppercase;
+   color: #e7e5ea;
+}
+
+.btn p {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #e7e5ea;
+   margin-top: 17px;
+}
+.btn .p {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: -0.3px;
+   color: #e7e5ea;
+}
+
+.submit {
+   & input {
+      width: 235px;
+      height: 48px;
+      background: #e7e5ea;
+      border-radius: 5px;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      padding-left: 25px;
+      color: #000;
+
+      margin: 25px 0 15px 0;
+   }
+
+   & button {
+      width: 129px;
+      left: 1416px;
+      height: 48px;
+      top: 8280px;
+      background: #886cff;
+      border-radius: 5px;
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.3px;
+      text-transform: uppercase;
+      color: #fff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      cursor: pointer;
+   }
+}
+
+//footer
+
+.footer-end {
+   display: flex;
+   border-top: solid 1px;
+   margin-top: 35px;
+   justify-content: space-between;
+   & p {
+      margin-top: 35px;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #e7e5ea;
+   }
+}
+
+.footer-icon {
+   margin-top: 30px;
+}
+.footer-icon .fa-brands {
+   font-size: 40px;
+   margin: 0 7px 7px 7px;
+}
