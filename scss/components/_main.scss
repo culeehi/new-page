@@ -15,6 +15,7 @@
    .nav-left {
       img {
          width: 100%;
+         object-fit: cover;
       }
    }
 }
@@ -26,7 +27,7 @@
    margin-left: -15px;
    margin-right: -15px;
 
-   .nav-left h4 {
+   .card h4 {
       font-style: normal;
       font-weight: 400;
       font-family: 'Outfit';
@@ -36,7 +37,7 @@
       letter-spacing: -1px;
       color: #2d3958;
    }
-   .nav-left > p {
+   .card > p {
       font-style: normal;
       font-weight: 400;
       font-family: 'DM Sans';
@@ -49,14 +50,21 @@
 }
 
 // css box-right
+// .box-right {
+//    display: flex;
+//    flex-wrap: wrap;
+//    justify-content: center;
+//    margin-left: -15px;
+//    margin-right: -15px;
+// }
 
 .nav-right {
-   margin: 13px 0 18px 20px;
+   margin: 16px;
    & text img {
       background-size: 100%;
    }
 
-   & h4 {
+   & span {
       font-family: 'Outfit';
       font-style: normal;
       font-weight: 400;
@@ -69,7 +77,7 @@
 
    & .text {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
    }
 }
 

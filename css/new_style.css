@@ -1,13 +1,32 @@
-@media only screen and (max-width: 1210px) {
-  .box-right {
-    margin-top: 15px;
+@media only screen and (max-width: 1221px) {
+  .box-left {
     display: flex;
+    align-items: stretch;
     flex-wrap: wrap;
-    align-items: center;
+  }
+  .nav-left {
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+  .box-right {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .nav-right {
-    margin: 12px;
+    width: 370px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .nav-left {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .box-right {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 * {
@@ -64,10 +83,10 @@
   cursor: pointer;
 }
 
-.text {
+.content > .text {
   max-width: 100%;
   height: auto;
-  background-image: url(../../assets/img/bgr.png);
+  background: url(../../assets/img/bgr.png) top center/cover;
 }
 
 .header h1 {
@@ -231,6 +250,7 @@
 }
 .wrap-item .nav-left img {
   width: 100%;
+  object-fit: cover;
 }
 
 .box-left {
@@ -240,7 +260,7 @@
   margin-left: -15px;
   margin-right: -15px;
 }
-.box-left .nav-left h4 {
+.box-left .card h4 {
   font-style: normal;
   font-weight: 400;
   font-family: "Outfit";
@@ -250,7 +270,7 @@
   letter-spacing: -1px;
   color: #2d3958;
 }
-.box-left .nav-left > p {
+.box-left .card > p {
   font-style: normal;
   font-weight: 400;
   font-family: "DM Sans";
@@ -262,12 +282,12 @@
 }
 
 .nav-right {
-  margin: 13px 0 18px 20px;
+  margin: 16px;
 }
 .nav-right text img {
   background-size: 100%;
 }
-.nav-right h4 {
+.nav-right span {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
@@ -279,7 +299,7 @@
 }
 .nav-right .text {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .box-time {
